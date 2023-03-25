@@ -53,6 +53,6 @@ class SL():
                 print("switch down is pressed")
                 break
     print("clean up")
-    GPIO.cleanup() #### try to comment this one 
+    GPIO.cleanup()  
 
 SL().run()
